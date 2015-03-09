@@ -1,0 +1,22 @@
+// lab 2
+import java.util.Scanner;
+public class lab2
+{
+public static void main( String [] args)
+{
+Scanner input= new Scanner(System.in);
+int i;
+System.out.println("Do you hungry?");
+System.out.println("you have to get in line");
+System.out.println("buy lunch");
+System.out.println("would you like some drink(1- yes,2-no):");
+i = input.nextInt();
+if( i==1)
+System.out.println("buy coke");
+else if(i==0)
+System.out.println("buy water");
+System.out.println("Eat lunch");
+System.out.println("return tray");
+System.out.println("Leave ");
+}
+}
