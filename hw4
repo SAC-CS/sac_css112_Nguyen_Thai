@@ -1,0 +1,24 @@
+// Rock/Paper/Scissor game
+import java.util.Scanner;
+public class hw4
+{
+public static void main( String [] args)
+{
+Scanner input= new Scanner(System.in);
+int i;
+int j;
+// 1 = Rock,2 =Paper,3= Scissor
+j=2;
+System.out.println("Welcome to the Rock/ Paper/ Scissor game!!!!");
+System.out.println("1 = Rock,2 =Paper,3= Scissor ");
+System.out.println("Please enter your choice :");
+i = input.nextInt();
+if( i ==1)
+System.out.println(" Paper---->> you lost!!");
+if(i ==j)
+System.out.println(" Paper---->> you tied!!");
+if(i==3 ) 
+System.out.println(" Paper---->> you Won!!");
+System.out.println("Thank you for playing!!");
+}
+}
